@@ -1,0 +1,42 @@
+{
+  "author": "Mark Vayngrib <mark.vayngrib@lablz.com> (http://github.com/mvayngrib)",
+  "bugs": {
+    "url": "https://github.com/mvayngrib/versioned-obj/issues"
+  },
+  "description": "object versioned tradle-style",
+  "devDependencies": {
+    "pre-commit": "latest",
+    "standard": "latest",
+    "tape": "latest"
+  },
+  "homepage": "https://github.com/mvayngrib/versioned-obj",
+  "keywords": [
+    "bitcoin",
+    "blockchain",
+    "tradle",
+    "versioned",
+    "version"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "versioned-obj",
+  "pre-commit": [
+    "style",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvayngrib/versioned-obj.git"
+  },
+  "scripts": {
+    "style": "standard $(git ls-files \"**.js\")",
+    "test": "node test"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "deep-equal": "^1.0.0",
+    "extend": "^3.0.0",
+    "tradle-constants": "^1.0.0",
+    "tradle-utils": "^0.1.3"
+  }
+}
